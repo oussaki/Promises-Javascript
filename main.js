@@ -7,7 +7,7 @@ var promise = new Promise((resolve, reject) => {
 });
 
 promise.then((value) => {
-    value = "Hello {" + value+ "}"
+    value = "Welcome to the user panel Mr. {" + value+ "}"
     return value
 })
 
